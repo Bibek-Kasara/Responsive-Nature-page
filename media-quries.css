@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media screen and (min-width: 2050px) {
   /* navabr */
   #nav {
@@ -675,4 +676,683 @@
   #developer {
     font-size: 8px;
   }
+=======
+@media screen and (min-width: 2050px) {
+  /* navabr */
+  #nav {
+    padding: 10px 30px;
+  }
+  #logo img {
+    height: 80px;
+  }
+  .navbar a {
+    font-size: 24px;
+    letter-spacing: 1.5px;
+  }
+  #contact_button {
+    font-size: 24px;
+    padding: 15px 25px;
+  }
+  /*container-1*/
+  #text-container h1 {
+    font-size: 150px;
+    letter-spacing: 20px;
+  }
+  #text-container h2 {
+    font-size: 60px;
+    letter-spacing: 3px;
+  }
+  #intro {
+    font-size: 30px;
+  }
+  #start_button a {
+    font-size: 34px;
+    padding: 20px 45px;
+  }
+  /* container-2---> pad-1 */
+  #pad-1 h2 {
+    font-size: 60px;
+  }
+  #divider {
+    height: 5px;
+    width: 200px;
+  }
+  .cards img {
+    width: 500px;
+  }
+  #service-cards {
+    gap: 150px;
+  }
+  .cards h4 {
+    font-size: 40px;
+    letter-spacing: 2.5px;
+    padding: 20px 0px;
+  }
+  .cards p {
+    font-size: 24px;
+  }
+  /* container-3-----> pad-2 */
+  #semicolon img {
+    height: 40px;
+  }
+  #quotes {
+    width: 1200px;
+  }
+  #quotes h3 {
+    font-size: 50px;
+    letter-spacing: 1.5px;
+    line-height: 75px;
+  }
+  #aphorists img {
+    height: 70px;
+  }
+  #aphorists-name p {
+    font-size: 24px;
+  }
+  /* container-4-----> pad-3 */
+  #about-us {
+    font-size: 24px;
+  }
+  #banner h4 {
+    font-size: 40px;
+  }
+  #description {
+    font-size: 24px;
+    line-height: 35px;
+  }
+  #find-out-button {
+    font-size: 24px;
+    padding: 20px 45px;
+  }
+  #pad-3 img {
+    height: 690px;
+  }
+  /* container-5 */
+  #pad-4 h1 {
+    font-size: 90px;
+  }
+  #pad-4 p {
+    font-size: 34px;
+    line-height: 35px;
+    color: rgb(58, 59, 51);
+  }
+  #pad-4 a {
+    font-size: 24px;
+    padding: 25px 45px;
+  }
+
+  /* last container || Footer*/
+  #footer {
+    font-size: 24px;
+  }
+  #footer-nav a {
+    padding: 0px 30px;
+  }
+  #footer img {
+    height: 70px;
+  }
+}
+@media screen and (min-width: 1300px) and (max-width: 1600px) {
+  /* navabr */
+  #logo img {
+    margin-right: 500px;
+  }
+  .navbar a{
+    font-size: 18px;
+  }
+    #contact_button {
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+  #text-container h1 {
+    font-size: 100px;
+  }
+  /* container-2---> pad-1 */
+  .cards img {
+    width: 325px;
+  }
+}
+@media screen and (min-width: 1000px) and (max-width: 1300px) {
+  /* navbar */
+  #logo img {
+    height: 45px;
+    margin-right: 150px;
+    filter: brightness(0) saturate(100%) invert(97%) sepia(3%) saturate(365%)
+      hue-rotate(21deg) brightness(90%) contrast(95%);
+  }
+  .navbar a {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  #contact_button {
+    font-size: 18px;
+  }
+
+  /*container-1*/
+
+  #text-container h1 {
+    font-size: 110px;
+  }
+  #text-container h2 {
+    font-size: 50px;
+  }
+  #intro {
+    font-size: 18px;
+  }
+  #start_button a {
+    font-size: 18px;
+  }
+  /* container-2---> pad-1 */
+  #pad-1 {
+    margin: 0px;
+  }
+  .cards {
+    width: 300px;
+  }
+  .cards img {
+    width: 275px;
+  }
+  .cards h4 {
+    font-size: 22px;
+  }
+  .cards p {
+    width: 290px;
+  }
+  /* container-4||pad-3 */
+  #pad-3 {
+    margin: 0px 20px;
+  }
+  /* container-5 *|| pad-4/ */
+  #pad-4 p {
+    padding: 20px 250px;
+  }
+  /* last-container||footer */
+  #footer{
+    justify-content: space-between;
+  }
+  #footer-nav{
+    padding: 0px 20px;
+  }
+  #footer img{
+    height: 50px;
+    margin: 0px 150px 0px 0px
+  }
+  #developer {
+    padding: 0px 50px 0px 0px;
+  }
+}
+@media screen  and (max-width: 1000px) {
+  #logo img {
+    height: 45px;
+    margin-right: 0px;
+    filter: brightness(0) saturate(100%) invert(97%) sepia(3%) saturate(365%)
+      hue-rotate(21deg) brightness(90%) contrast(95%);
+  }
+  #nav{
+   position: relative;
+  }
+  .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 100%;
+        right: -50%;
+        border-radius: 0px 0px 10px 10px;
+        background-color: rgba(0, 0, 0, 0.485);
+        width: 50%;
+        height: 100vh;
+        transition: 0.5s ease-in-out;
+  }
+  .navbar.active{
+    right: 0%;
+  }
+  .navbar a {
+    font-size: 18px;
+    padding: 20px ;
+  }
+  .contact i{
+    display: initial;
+    padding-left: 30px;
+  }
+  #contact_button {
+    font-size: 18px;
+  }
+
+  /*container-1*/
+
+  #text-container h1 {
+    font-size: 110px;
+  }
+  #text-container h2 {
+    font-size: 50px;
+  }
+  #intro {
+    font-size: 18px;
+  }
+  #start_button a {
+    font-size: 18px;
+  }
+  /* container-2---> pad-1 */
+  #pad-1 {
+    margin: 0px;
+  }
+  #service-cards {
+    gap: 50px;
+  }
+  .cards {
+    width: 200px;
+  }
+  .cards img {
+    width: 180px;
+  }
+  .cards h4 {
+    font-size: 20px;
+  }
+  .cards p {
+    width: 175px;
+  }
+  /* sexction-3||pad-2 */
+    #pad-2 {
+        padding: 1px 0px;
+    }
+  /* container-4||pad-3 */
+  #pad-3 {
+    margin: 0px 20px;
+    padding: 0px;
+  }
+  #banner h4 {
+    font-size: 25px;
+  }
+  #about-us {
+    margin-top: 50px;
+  }
+  #find-out-button{
+    margin: 10px 0px;
+  }
+  /* container-5 *|| pad-4/ */
+  #pad-4 p {
+    padding: 20px 100px;
+  }
+  /* last-container||footer */
+  #footer{
+    justify-content: space-between;
+  }
+  #footer-nav{
+    padding: 0px 20px;
+  }
+  #footer img{
+    height: 50px;
+    margin: 0px 150px 0px 0px
+  }
+  #developer {
+    padding: 0px 50px 0px 0px;
+  }
+}
+@media screen and (max-width:800px){
+ #logo img {
+  height: 45px;
+  margin-right: 0px;
+  filter: brightness(0) saturate(100%) invert(97%) sepia(3%) saturate(365%)
+    hue-rotate(21deg) brightness(90%) contrast(95%);
+}
+/* #nav{
+ position: relative;
+} */
+
+.contact i{
+  display: initial;
+  padding-left: 30px;
+}
+#contact_button {
+  font-size: 18px;
+} 
+/*container-1*/
+
+#container-1{
+  margin-bottom: 170px;
+}
+#text-container h1 {
+  font-size: 90px;
+}
+#text-container h2 {
+  font-size: 40px;
+}
+#intro {
+  font-size: 16px;
+}
+#start_button a {
+  font-size: 16px;
+}
+/* container-2---> pad-1 */
+#pad-1 {
+  margin: 0px;
+}
+#service-cards {
+  gap: 40px;
+}
+.cards {
+  width: 200px;
+}
+.cards img {
+  width: 180px;
+}
+.cards h4 {
+  font-size: 18px;
+}
+.cards p {
+  width: 175px;
+  font-size: 16px;
+}
+/* sexction-3||pad-2 */
+  #pad-2 {
+      padding: 1px 0px;
+  }
+  #quotes{
+    width:500.38px;
+    text-align: center;
+}
+  #pad-2 h3 {
+    font-size: 28px;
+    padding: 0px;
+  }
+  #pad-2 p {
+    font-size: 16px;
+  }
+/* container-4||pad-3 */
+#pad-3 {
+  margin: 0px 20px;
+  padding: 0px;
+}
+#banner h4 {
+  font-size: 23px;
+}
+#about-us {
+  margin-top: 50px;
+}
+#description {
+  font-size: 16px;
+}
+#find-out-button{
+  margin: 10px 0px;
+}
+#pad-3 img{
+  height: 400px;
+}
+/* container-5 *|| pad-4/ */
+#container-5{
+  height: 53vh;
+}
+#pad-4 h1 {
+  font-size: 50px;
+}
+#pad-4 p {
+  padding: 20px 20px;
+  font-size: 16px;
+}
+#pad-4 a {
+  font-size: 16px;
+  padding: 15px 25px;
+}
+/* last-container||footer */
+#footer{
+  justify-content: space-between;
+}
+#footer-nav{
+  padding: 0px 10px;
+  font-size: 16px;
+}
+#footer-nav a{
+  padding: 5px;
+}
+#footer img{
+  height: 30px;
+  margin: 0px 120px 0px 0px
+}
+#developer {
+  font-size: 16px;
+  padding: 0px 20px 0px 0px;
+}
+}
+@media screen and (max-width:600px) {
+   .contact i{
+     display: initial;
+     padding-left: 10px;
+   }
+   #contact_button {
+     font-size: 14px;
+     padding: 5px 10px;
+   } 
+   /*container-1*/
+  
+   #text-container h1 {
+     font-size: 50px;
+   }
+   #text-container h2 {
+     font-size: 30px;
+   }
+   #intro {
+     font-size: 16px;
+   }
+   #start_button a {
+     font-size: 16px;
+     padding: 10px 20px;
+   }
+   /* container-2---> pad-1 */
+   #service-cards {
+     gap: 40px;
+   }
+   .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     width: 400px;
+   }
+   .cards img {
+     width: 375px;
+   }
+   .cards h4 {
+     font-size: 24px;
+   }
+   .cards p {
+     width: 350px;
+     text-align: center;
+     font-size: 18px;
+   }
+   /* sexction-3||pad-2 */
+     #quotes{
+       width:450px;
+       text-align: center;
+   }
+     #pad-2 h3 {
+       font-size: 25px;
+     }
+     #pad-2 p {
+       font-size: 18px;
+     }
+   /* container-4||pad-3 */
+   #pad-3 {
+     margin: 5px;
+   }
+   #banner{
+    padding: 5px;
+   }
+   #banner h4 {
+    margin: 10px 0px;
+   }
+   #about-us {
+     margin-top: 40px;
+   }
+    #description {
+      padding: 5px;
+    }
+   #find-out-button{
+     font-size: 16px;
+   }
+   #pad-3 img{
+     height: 300px;
+     padding: 5px;
+   }
+   /* container-5 *|| pad-4/ */
+   #pad-4{
+      padding: 5px;
+   }
+   #pad-4 h1 {
+     font-size: 40px;
+   }
+   #pad-4 p {
+     padding: 0px;
+   }
+   #pad-4 a {
+     font-size: 16px;
+     padding: 15px 25px;
+   }
+   /* last-container||footer */
+   #footer{
+     justify-content: space-between;
+   }
+   #footer-nav{
+     padding: 0px;
+     font-size: 12px;
+   }
+   #footer-nav a{
+     padding: 5px;
+   }
+   #footer img{
+     margin: 0px 80px 0px 0px
+   }
+   #developer {
+     font-size: 12px;
+     padding: 0px 20px 0px 0px;
+   }
+}
+@media screen and (max-width:450px) {
+  /* navbar */
+  #nav{
+    padding: 5px 10px;
+  }
+  #logo img {
+    height: 35px;
+  }
+  .navbar a::before{
+    height: 80%;
+ }
+  .contact i{
+    font-size: 25px;
+  }
+  #contact_button {
+    font-size: 14px;
+  } 
+  /*container-1*/
+ 
+  #text-container h1 {
+    font-size: 40px;
+  }
+  #text-container h2 {
+    font-size: 25px;
+  }
+  #intro {
+    font-size: 14px;
+  }
+  #start_button a {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+  /* container-2---> pad-1 */
+  #pad-1{
+    padding: 30px;
+  }
+  #pad-1 h2{
+    font-size: 25px;
+  }
+  #divider{
+    width: 70px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  #service-cards {
+    gap: 20px;
+  }
+  .cards {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    width: 250px;
+  }
+  .cards img {
+    width: 300px;
+  }
+  .cards h4 {
+    font-size: 18px;
+  }
+  .cards p {
+    width: 300px;
+    text-align: center;
+    font-size: 14px;
+  }
+  /* sexction-3||pad-2 */
+  #semicolon{
+    margin-top: 30px;
+  }
+  #semicolon img{
+    height: 20px;
+}
+    #quotes{
+      width:300px;
+      text-align: center;
+  }
+    #pad-2 h3 {
+      font-size: 20px;
+    }
+    #pad-2 p {
+      font-size: 14px;
+      margin-bottom: 30px;
+    }
+  /* container-4||pad-3 */
+  #about-us {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  #banner h4{
+    font-size: 18px;
+  }
+   #description {
+     font-size: 14px;
+     line-height: 17px;
+   }
+  #find-out-button{
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+  #pad-3 img{
+    height: 200px;
+  }
+  /* container-5 *|| pad-4/ */
+  #pad-4 h1 {
+    font-size: 25px;
+  }
+  #pad-4 a {
+    font-size: 14px;
+  }
+  /* last-container||footer */
+  #footer{
+    padding: 10px 0px;
+  }
+  #footer-nav{
+    padding: 10px;
+    font-size: 8px;
+  }
+  #footer-nav a{
+    padding: 2.5px;
+  }
+  #footer img{
+    height: 20px;
+    margin: 0px 70px 0px 10px
+  }
+  #developer {
+    font-size: 8px;
+  }
+>>>>>>> 5f482df9abfd355d074a8a26c6447f4b9b661c65
 }
