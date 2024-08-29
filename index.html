@@ -5,54 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nature: we love nature</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media-quries.css">
     <link
       rel="icon"
       href="https://websitedemos.net/love-nature-02/wp-content/uploads/sites/988/2021/11/logo-white.svg"
       type="image/icon type"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <header>
-      <section class="nav">
-        <div class="logo">
+      <section id="nav">
+        <div id="logo">
           <img
             src="logo.svg"
             alt="Logo"
           />
         </div>
-        <nav class="navbar">
+        <nav class="navbar" id="navbar-link">
           <a href="index.html">Home</a>
           <a href="about.html">About us</a>
           <a href="service.html">Services</a>
           <a href="contact.html">Contact</a>
         </nav>
-        <div class="contact_button">202-555-0188</div>
+       <div class="contact"> <div id="contact_button">202-555-0188</div>
+       <i class="fa-solid fa-bars" id="nav-toggle"></i>
+      </div>
       </section>
-      <section class="container-1">
-        <div class="text-container">
+      <section id="container-1">
+        <div id="text-container">
           <h2>we all love</h2>
           <h1>NATURE</h1>
         </div>
-        <div class="intro">
+        <div id="intro">
           <p>
             Look deep into nature, and you will
             <br />
             understand everything better.
           </p>
         </div>
-        <span class="start_button">
+        <span id="start_button">
           <a href="#">Get Started</a>
         </span>
       </section>
     </header>
-    <section class="container-2">
-      <div class="pad-1">
+    <section id="container-2">
+      <div id="pad-1">
         <h2>Our Services</h2>
-        <span class="divider"></span>
-        <div class="service-cards">
+        <span id="divider"></span>
+        <div id="service-cards">
           <div class="cards">
             <img src="service-1.jpg" alt="Error" />
-            <h3>Web Design</h3>
+            <h4>Web Design</h4>
             <p>
               Focus on how you can help and benefit your user. Use simple words
               so that you don't confuse people.
@@ -60,7 +64,7 @@
           </div>
           <div class="cards">
             <img src="service-2.jpg" alt="Error" />
-            <h3>Graphic Design</h3>
+            <h4>Graphic Design</h4>
             <p>
               Focus on how you can help and benefit your user. Use simple words
               so that you don't confuse people.
@@ -68,7 +72,7 @@
           </div>
           <div class="cards">
             <img src="service-3.jpg" alt="Error" />
-            <h3>Content Creation</h3>
+            <h4>Content Creation</h4>
             <p>
               Focus on how you can help and benefit your user. Use simple words
               so that you don't confuse people.
@@ -77,14 +81,14 @@
         </div>
       </div>
     </section>
-    <section class="container-3">
-      <div class="pad-2">
+    <section id="container-3">
+      <div id="pad-2">
         <div id="semicolon"><img src="quotes.svg" alt="Error" /></div>
         <div id="quotes">
-          <h4>
+          <h3>
             “Original and with an innate understanding of their customer’s
             needs, the team at Love Nature are always a pleasure to work with.”
-          </h4>
+          </h3>
         </div>
         <div id="aphorists">
           <img src="avatar_on_home.png" alt="" />
@@ -94,8 +98,8 @@
         </div>
       </div>
     </section>
-    <section class="container-4">
-      <div class="pad-3">
+    <section id="container-4">
+      <div id="pad-3">
         <div id="banner">
           <p id="about-us">ABOUT US</p>
           <h4>
@@ -113,24 +117,25 @@
         <img src="leaf.jpg" alt="Error" />
       </div>
     </section>
-    <section class="container-5">
-      <div class="pad-4">
+    <section id="container-5">
+      <div id="pad-4">
         <h1>QUESTIONS?</h1>
         <p>Whether you’re curious about features, a free trial, or even press, we’re here to answer any questions.</p>
         <a href="index.html">Let's Talk Now</a>
       </div>
     </section>
-    <section class="last-container">
-      <div class="footer">
-        <div class="footer-nav">
+    <section id="last-container">
+      <div id="footer">
+        <div id="footer-nav">
           <a href="index.html">Home</a>
           <a href="#">About</a>
           <a href="#">Services</a>
           <a href="#">Contact</a>
         </div>
         <P><img src="logo.svg" alt="logo"></P>
-        <p class="developer"><a href="https://www.linkedin.com/in/bibek-kasara-627b90309/" target="_blank">BY Bibek Kasara</a></p>
+        <p id="developer"><a href="https://www.linkedin.com/in/bibek-kasara-627b90309/" target="_blank">BY Bibek Kasara</a></p>
       </div>
     </section>
+    <script src="index.js"></script>
   </body>
 </html>
